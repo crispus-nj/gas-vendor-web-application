@@ -1,0 +1,16 @@
+.lightblue-bg{
+    background-color: rgb(71, 71, 167);
+}
+.lightgrey-bg{
+    background-color: lightgrey;
+}
+.lightblue-textcolor{
+    color:rgb(71, 71, 167) ;
+}
+h2{
+    color:rgb(71, 71, 167);
+}
+#add{
+    background-color: rgb(71, 71, 167);
+    color: white;
+}
