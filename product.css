@@ -14,3 +14,6 @@ h2{
     background-color: rgb(71, 71, 167);
     color: white;
 }
+.row{
+    display: flex;
+}
