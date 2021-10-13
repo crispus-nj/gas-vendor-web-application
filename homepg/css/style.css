@@ -5,7 +5,7 @@
    margin-bottom: -16px;
  }
  .nav{
-   background-color: 3216DF;
+   background-color: C4C4C4;
    margin-top: 20px;
  }
  .nav-item, li >text{
@@ -13,6 +13,10 @@
  }
  .nav-item{
    height: 70px;
+   background-color: C4C4C4;
+ }
+ .nav-top{
+  background-color: C4C4C4;
  }
 .carousel-item> img{
   background-size: cover;
