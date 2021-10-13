@@ -1,19 +1,78 @@
 .lightblue-bg{
+    border-style: solid;
+    color: white;
+    height: 120px;
+    width: 140px;
+    border-color:rgb(71, 71, 167);
     background-color: rgb(71, 71, 167);
-}
-.lightgrey-bg{
-    background-color: lightgrey;
-}
-.lightblue-textcolor{
-    color:rgb(71, 71, 167) ;
+    border-radius: 25px;
+    text-align: center;
+    margin-top: 30px;
+    justify-content: space-around;
 }
 h2{
     color:rgb(71, 71, 167);
 }
-#add{
+#row{
+    display: flex;
+}
+.row1{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 270px;
+}
+.cart{
+    border-style: solid;
+    border-color: rgb(71, 71, 167);
+    width: 120px;
+    height: 20px;
+    cursor: pointer;
+    text-align: center;
+}
+.cart:active{
     background-color: rgb(71, 71, 167);
-    color: white;
+    transform: translateY(4px);
+
+}
+.cart:hover{
+    background-color: rgb(71, 71, 167);
+}
+.footer{
+    background-color: rgb(114, 108, 108);
+    justify-content: space-around;
 }
 .row{
+    flex-direction: right;
     display: flex;
+    justify-content: space-evenly;
+}
+.row2{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 20px;
+}
+.row3{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 100px;
+}
+.row4{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 190px;
+}
+#description{
+    margin-left: 250px;
+}
+#description7{
+    margin-left: 140px;
+}
+#img4{
+    margin-left: 120px;
+}
+#img7{
+    margin-left: 120px;
+}
+#description11{
+    margin-left: 100px;
 }
