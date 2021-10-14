@@ -35,9 +35,6 @@
 .shop-items >.shop-item{
   margin-top: -1000;
 }
-.products > .shop-items{
-  justify-content: space-around;
-}
 .row1{
   margin-top: 5px;
 }

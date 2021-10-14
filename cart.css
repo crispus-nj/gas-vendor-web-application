@@ -1,15 +1,23 @@
-nav li {
-    list-style: none;
-    text-decoration: none;
-    display: inline-block;
-    padding-left: 10px;
-    padding-right: 10px;
-}
-li a {
-    text-decoration: none;
-    background-color: #ffff;
-    padding: 5px;
-}
+.nav-item, li img{
+    width: 60px;
+    height: 70px;
+    margin-top: -15px;
+    margin-bottom: -16px;
+  }
+  .nav{
+    background-color: C4C4C4;
+    margin-top: 20px;
+  }
+  .nav-item, li >text{
+    color: black;
+  }
+  .nav-item{
+    height: 70px;
+    background-color: C4C4C4;
+  }
+  .nav-top{
+   background-color: C4C4C4;
+  }
 
 cart ion-icon {
     vertical-align: bottom;
