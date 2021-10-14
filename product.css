@@ -80,9 +80,11 @@ h2{
 .nav-item, li img{
     width: 60px;
     height: 70px;
+    margin-top: -15px;
     margin-bottom: -16px;
   }
   .nav{
+    background-color: 3216DF;
     margin-top: 20px;
   }
   .nav-item, li >text{
@@ -90,11 +92,5 @@ h2{
   }
   .nav-item{
     height: 70px;
-    background-color: C4C4C4;
   }
-  .nav-top{
-   background-color: C4C4C4;
-  }
-.nav-bg{
-    background-color: lightgray;
-}
+

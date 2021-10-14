@@ -27,8 +27,9 @@
     justify-content: space-around;
     margin-top: 10px;
     padding-top: 20px;
+    margin-bottom: -500px;
   }
-  row1{
+  .row1{
     margin-top: 5px;
   }
   .text{
@@ -53,10 +54,10 @@
       width: 216px;
       border-radius: 50%;
   }
-  .col2{
-      width: 216px;
-      border-radius: 50%;
-  }
   img{
       border-radius: 50%;
+  }
+  .row{
+      display: flex;
+      flex-direction: row;
   }
