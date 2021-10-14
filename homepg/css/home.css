@@ -32,10 +32,10 @@
   margin-top: 10px;
   padding-top: 20px;
 }
-.products, col .order-1{
+.shop-items >.shop-item{
   margin-top: -1000;
 }
-.products,col{
+.products > .shop-items{
   justify-content: space-around;
 }
 .row1{
@@ -47,4 +47,9 @@
 }
 .customer-reviews >h2{
   text-align: center;
+}
+.shop-items{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 }
